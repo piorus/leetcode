@@ -1,5 +1,17 @@
 """
-https://leetcode.com/problems/word-search-ii
+Problem: 212. Word Search II
+Difficulty: Hard
+Concepts: Tries, DFS
+Link: https://leetcode.com/problems/word-search-ii/
+================
+Time complexity: O(n * k + R * C * 4^L), where
+Space complexity: O(n * k + R * C + L)
+
+  n is a number of words inserted into trie,
+  k is an average word length
+  R is a number of rows
+  C is a number of columns
+  L is a word lookup in a trie
 """
 
 from collections import defaultdict

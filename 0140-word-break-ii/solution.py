@@ -1,6 +1,13 @@
 """
-https://leetcode.com/problems/word-break-ii
+Problem: 140. Word Break II
+Difficulty: Hard
+Concepts: DFS
+Link: https://leetcode.com/problems/word-break-ii/
+================
+Time complexity: O(n * 2^n)
+Space complexity: O(n)
 """
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         result = []

@@ -1,5 +1,11 @@
 """
-https://leetcode.com/problems/longest-increasing-subsequence
+Problem: 300. Longest Increasing Subsequence
+Difficulty: Medium
+Concepts: Binary search
+Link: https://leetcode.com/problems/longest-increasing-subsequence/
+================
+Time complexity: O(n * logn)
+Space complexity: O(n)
 """
 
 from bisect import bisect_left

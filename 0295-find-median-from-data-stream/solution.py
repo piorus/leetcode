@@ -1,7 +1,15 @@
 """
-Hard
-
-https://leetcode.com/problems/find-median-from-data-stream
+Problem: 295. Find Median from Data Stream
+Difficulty: Hard
+Concepts: Min. Heap, Max. Heap
+Link: https://leetcode.com/problems/find-median-from-data-stream
+================
+Time complexity:
+    addNum() -> O(logn)
+    findMedian() -> O(1)
+Space complexity:
+    addNum() -> O(n)
+    findMedian() -> O(n)
 """
 
 from heapq import heappop, heappush

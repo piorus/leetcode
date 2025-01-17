@@ -1,5 +1,11 @@
 """
-https://leetcode.com/problems/longest-valid-parentheses
+Problem: 32. Longest Valid Parentheses
+Difficulty: Hard
+Concepts: Stack
+Link: https://leetcode.com/problems/longest-valid-parentheses/
+================
+Time complexity: O(n) 
+Space complexity: O(n)
 """
 
 class Solution:

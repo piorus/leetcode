@@ -1,7 +1,15 @@
 """
-Hard
-
-https://leetcode.com/problems/unique-paths-iii
+Problem: 980. Unique Paths III
+Difficulty: Hard
+Concepts: DFS
+Link: https://leetcode.com/problems/unique-paths-iii/
+================
+Time complexity: O(4^(ROWS * COLS - K)
+Space complexity: O(ROWS * COLS)
+where,
+    ROWS is number of grid rows,
+    COLS is number of grid cols,
+    K is number of obstacles
 """
 
 class Solution:
