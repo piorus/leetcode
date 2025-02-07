@@ -4,8 +4,8 @@ Difficulty: Easy
 Concepts: Two Pointers
 Link: https://leetcode.com/problems/valid-palindrome/
 ================
-Time complexity:
-Space complexity:
+Time complexity: O(n)
+Space complexity: O(1)
 """
 
 class Solution:
